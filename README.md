@@ -42,11 +42,11 @@ if len(det):
 ```
 !git clone https://github.com/WongKinYiu/yolov7
 ```  
-### Download the weigths of YOLOv5
+### Download the weigths of YOLOv7
 ```
 !wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt
 ```  
-### To use YOLOv5  
+### To use YOLOv7  
 we execute this ligne and 2 3 7 is to specify the classes 'car, truck , motorcycle' 
 ``` shell
 !python detect.py --weights yolov7.pt --classes 2 3 7 --source /YOLO_DataTesting/Video_DTC.mp4
